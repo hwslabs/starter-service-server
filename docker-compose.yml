@@ -4,6 +4,5 @@ services:
     image: ${DOCKER_REGISTRY}/{TEMPLATE_SERVICE_HYPHEN_NAME}-service
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
     ports:
       - "50051:50051"
